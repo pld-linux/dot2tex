@@ -1,12 +1,12 @@
 Summary:	A Graphviz to LaTeX converter
 Summary(pl.UTF-8):	Konwerter plików Graphviza do LaTeXa
 Name:		dot2tex
-Version:	2.8.4
+Version:	2.8.5
 Release:	1
 License:	MIT
 Group:		Applications
 Source0:	http://dot2tex.googlecode.com/files/%{name}-%{version}.tar.gz
-# Source0-md5:	e63d164fad5722290646cb200dcfcb61
+# Source0-md5:	94e3d97acbd66e24de9a7403d278dd60
 URL:		http://www.fauskes.net/code/dot2tex/
 BuildRequires:	python >= 1:2.5
 BuildRequires:	rpm-pythonprov
