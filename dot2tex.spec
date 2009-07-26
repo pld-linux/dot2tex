@@ -13,7 +13,7 @@ BuildRequires:	python >= 1:2.5
 BuildRequires:	rpm-pythonprov
 Requires:	graphviz
 Requires:	python-pyparsing >= 1.4.8
-Requires:	tetex-latex
+Requires:	texlive-latex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
