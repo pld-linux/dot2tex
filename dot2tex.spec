@@ -3,7 +3,7 @@ Summary(hu.UTF-8):	Egy Graphviz-ből LaTeX-be konvertáló program
 Summary(pl.UTF-8):	Konwerter plików Graphviza do LaTeXa
 Name:		dot2tex
 Version:	2.8.6
-Release:	1
+Release:	2
 License:	MIT
 Group:		Applications
 Source0:	http://dot2tex.googlecode.com/files/%{name}-%{version}.tar.gz
