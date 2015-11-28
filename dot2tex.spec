@@ -67,9 +67,7 @@ Przykłady dla dot2tex.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-%{__python} setup.py install \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py_install
 
 %{__cp} -a examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
