@@ -9,6 +9,7 @@ Group:		Applications
 Source0:	http://dot2tex.googlecode.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	8af7c44ea6484d47faee31cacbad9206
 URL:		http://www.fauskes.net/code/dot2tex/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python >= 1:2.5
 BuildRequires:	rpm-pythonprov
 Requires:	graphviz
